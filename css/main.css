@@ -1,19 +1,15 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
 :root{
     --background-color : #f1f1f1;
     --nav-font-color : #f44336;
+    
     --sub-btn-color : #616161;
 }
 
-@font-face {
-    font-family: 'Raleway';
-    font-style: normal;
-    font-weight: 400;
-    font-display: swap;
-    src: url('https://fonts.googleapis.com/css2?family=Raleway');
-  }
 
-h1{
+.h1_banner{
     color: #f44336;
     }
 h2{
@@ -57,4 +53,11 @@ h3{
     display: flex; 
     justify-content: center; 
     align-items: center;
+}
+
+
+#icon_banner {
+    height: 3rem;
+    margin: .6rem;
+    float: left;
 }
