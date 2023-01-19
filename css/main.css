@@ -27,6 +27,23 @@ h3{
     width: 10rem; 
     height: 4rem;
 }
+
+#image_header{
+    display: table;
+    position: relative;
+    max-width: 100vw;
+    margin: 1rem auto;
+}
+
+#image_header img{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    vertical-align: middle;
+    object-fit: image_header;
+}
+
+
 .row {
     display: flex;
     flex-wrap: wrap;
@@ -60,4 +77,29 @@ h3{
     height: 3rem;
     margin: .6rem;
     float: left;
+}
+
+.btn-group {
+    justify-content: center; 
+    align-items: center; 
+    width: 10rem; 
+    height: 4rem;
+}
+
+.btn-active {
+    justify-content: center; 
+    align-items: center; 
+    width: 10rem; 
+    height: 4rem;
+    display: flex; 
+    background-color: #f44336; 
+}
+
+.btn-default {
+    justify-content: center; 
+    align-items: center; 
+    width: 10rem; 
+    height: 4rem;
+    display: flex; 
+    background-color: #000000;
 }
