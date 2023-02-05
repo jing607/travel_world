@@ -1,0 +1,24 @@
+{
+  "name": "travel_the_world",
+  "version": "1.0.0",
+  "description": "\"https://github.com/jing607/travel_world\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jing607/travel_world.git"
+  },
+  "keywords": [
+    "package.json",
+    "npm",
+    "init"
+  ],
+  "author": "HJX",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jing607/travel_world/issues"
+  },
+  "homepage": "https://github.com/jing607/travel_world#readme"
+}
